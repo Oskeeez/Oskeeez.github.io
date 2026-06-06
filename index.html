@@ -108,9 +108,9 @@
                 Leading a small team to improve the rover-mounted robot arm used in the
                 post-landing phase of the Australian Rover Challenge - a simulated Mars mission.
                 The arm needs to remotely operate keyboards, knobs and dials, connect a fuel
-                hose, assess the lander for damage, and help navigate to supply caches. This
-                work is in its early stages, with more technical detail to follow as the
-                competition year progresses.
+                hose, assess the lander for damage, and help navigate to supply caches. 
+                The arm runs on ROS2, and communicates to main compute via CAN bus. This work is
+                in its early stages, with more technical detail to follow as the competition year progresses.
               </p>
             </div>
           </article>
@@ -199,16 +199,16 @@
         <h2><span class="num">03</span> Projects</h2>
         <p class="section-lede">
           A selection of robotics, control systems and systems-engineering work from university
-          units, student teams and industry, roughly newest first.
+          units, student teams and industry.
         </p>
 
         <!-- Project: Pick and Place Robot -->
         <article class="project project-feature">
           <div class="project-media">
-            <img src="images/pickplace-isometric.jpg" alt="Real-life photo of the completed autonomous robot with the 3DOF arm extended and gripper holding a test item">
+            <img src="images/pickplace-isometric.jpg" alt="Real-life photo of the completed autonomous robot with the 2DOF arm extended and gripper holding a test item">
             <div class="project-media-strip">
               <img src="images/pickplace-20x20x20.jpg" alt="Side view of the robot showing how the full assembly fits within the 20x20x20cm envelope constraint">
-              <img src="images/pickplace-bench-test.jpg" alt="Bench test of the 3DOF robot arm and gripper prototype, wired up to a microcontroller">
+              <img src="images/pickplace-bench-test.jpg" alt="Bench test of the 2DOF robot arm and gripper prototype, wired up to a microcontroller">
               <img src="images/pickplace-cad-arm.jpg" alt="CAD render of the elbow-servo arm and modular gripper assembly">
               <img src="images/pickplace-gripper-detail.jpg" alt="Close-up of the gripper holding a test item during a bench trial">
             </div>
@@ -219,13 +219,13 @@
             <p class="project-meta">EGB320 (Mechatronics Design) · QUT</p>
             <p>
               Owned the item collection subsystem of a TRL-3 autonomous warehouse robot: a
-              3-degree-of-freedom robotic arm and modular gripper (with an end-effector-mounted
+              2-degree-of-freedom robotic arm and modular gripper (with an end-effector-mounted
               camera) able to retrieve items of different sizes from three shelf heights and
               deposit them at a packing station.
             </p>
             <ul class="project-points">
-              <li>Chose a 3DOF elbow-servo arm over a heavier 6DOF design (and over a four-bar
-                linkage) - trading some flexibility for better manoeuvrability in tight aisles,
+              <li>Chose a 2DOF elbow-servo arm over a heavier 6DOF design (and over a four-bar
+                linkage) - trading some flexibility for more efficient item deposition,
                 a wider range of motion, and better camera angling, all while fitting the whole
                 robot inside a 20×20×20&nbsp;cm envelope.</li>
               <li>Used trigonometry rather than full inverse kinematics to compute joint angles
@@ -424,6 +424,7 @@ typedef struct {
               <span class="chip">Stanford Biodesign Framework</span>
               <span class="chip">Biomechanical Analysis</span>
               <span class="chip">Medical Device Regulation</span>
+              <span class="chip">Project Management</span>
             </div>
           </div>
         </article>
