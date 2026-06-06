@@ -581,3 +581,12 @@ code {
   }
   .nav-links.open { display: flex; }
   .nav-toggle { display: inline-flex; align-items: center; justify-content: center; }
+
+  .about-grid { grid-template-columns: 1fr; }
+  .about-photo { max-width: 180px; margin: 0 auto; }
+  .about-photo, .about-text, .about-card { grid-column: 1 !important; grid-row: auto !important; }
+
+  .project-media-strip { grid-template-columns: repeat(2, 1fr); }
+  .section { padding: 64px 0; }
+  .hero { padding: 88px 0 64px; }
+}
